@@ -1,9 +1,9 @@
 var thunder,thunderAnimation;
 var bruce,bruceAnimation;
 function preload(){
-    thunderAnimation = loadAnimation("thunderbolt/1.png","thunderbolt/2.png","thunderbolt/3.png","thunderbolt/4.png");
-    bruceAnimation = loadAnimation("Walking Frame/walking_1.png","Walking Frame/walking_2.png","Walking Frame/walking_3.png","Walking Frame/walking_4.png","Walking Frame/walking_5.png",
-    "Walking Frame/walking_6.png","Walking Frame/walking_7.png","Walking Frame/walking_8.png");
+    thunderAnimation = loadAnimation("1.png","2.png","3.png","4.png");
+    bruceAnimation = loadAnimation("walking_1.png","walking_2.png","/walking_3.png","walking_4.png","walking_5.png",
+    "walking_6.png","walking_7.png","walking_8.png");
 }
 
 function setup(){
